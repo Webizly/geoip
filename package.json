@@ -2,14 +2,14 @@
   "author": "T. Budiman <tbudiman@gmail.com>",
   "name": "ipident",
   "description": "Node.js library to identify the location of IP addresses using redis.",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "repository": {
     "type": "git",
-    "url": "http://github.com/Webizly/plp.git"
+    "url": "http://github.com/Webizly/geoip.git"
   },
   "main": "./index.js",
-  "dependencies": {"csv": "*", 
-  		  "redis": "~0.8.2", 
+  "dependencies": {"csv": "*",
+  		  "redis": "~0.8.2",
 		  "underscore.string": "*",
                   "async": "*",
                   "inet": "*"},

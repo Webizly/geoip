@@ -173,7 +173,5 @@ console.log('Listening on port 3001');
 
 ```
 
-  [ipident]: https://github.com/Webizly/plp/tree/master/ipident/
-  [lookup data]: https://github.com/valmy/IPtoCountry-Mapping/raw/master/data/master_ip_address.csv.gz
+  [ipident]: https://github.com/Webizly/geoip/
   [geolite]: http://dev.maxmind.com/geoip/geolite
-
