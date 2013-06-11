@@ -173,5 +173,5 @@ console.log('Listening on port 3001');
 
 ```
 
-  [ipident]: https://github.com/Webizly/geoip/
+  [ipident]: https://github.com/mywebclass/geoip/
   [geolite]: http://dev.maxmind.com/geoip/geolite
