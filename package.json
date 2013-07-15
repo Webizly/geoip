@@ -15,6 +15,7 @@
                   "inet": "*"},
   "devDependencies": {"should": "*"},
   "optionalDependencies": {"hiredis": "*"},
+  "license": "MIT",
   "engines": {
     "node": "*"
   }
