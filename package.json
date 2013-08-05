@@ -3,18 +3,33 @@
   "name": "ipident",
   "description": "Node.js library to identify the location of IP addresses using redis.",
   "version": "0.0.7",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  },
+  "scripts": {
+    "start": "node example/example.js",
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "install":"scripts/install.sh"
+  },
   "repository": {
     "type": "git",
     "url": "http://github.com/mywebclass/geoip.git"
   },
   "main": "./index.js",
-  "dependencies": {"csv": "*",
-  		  "redis": "~0.8.2",
-		  "underscore.string": "*",
-                  "async": "*",
-                  "inet": "*"},
-  "devDependencies": {"should": "*"},
-  "optionalDependencies": {"hiredis": "*"},
+  "dependencies": {
+    "csv": "*",
+    "redis": "*",
+    "async": "*",
+    "inet": "*"
+  },
+  "devDependencies": {
+    "mocha":"*",
+    "should": "*"
+  },
+  "optionalDependencies": {
+    "hiredis": "*"
+  },
   "license": "MIT",
   "engines": {
     "node": "*"
