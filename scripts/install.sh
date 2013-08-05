@@ -32,12 +32,13 @@ fi
 
 if [ -f GeoLiteCity-Location.csv ]; then
     echo 'Placing GeoLiteCity-Location.csv where it is needed...'
-    cp GeoLiteCity-Location.csv data/GeoLiteCity-Location.csv -f
+    sed '1,2d' GeoLiteCity-Location.csv > data/GeoLiteCity-Location.csv
 fi
 
 if [ -f GeoLiteCity-Blocks.csv ]; then
     echo 'Placing GeoLiteCity-Blocks.csv where it is needed...'
     cp GeoLiteCity-Location.csv data/GeoLiteCity-Blocks.csv -f
+    sed '1,2d' GeoLiteCity-Blocks.csv >  data/GeoLiteCity-Blocks.csv
 fi
 
 if [ -f data/GeoLiteCity-Location.csv ]; then
